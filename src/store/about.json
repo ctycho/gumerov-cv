@@ -1,0 +1,10 @@
+{
+    "en": {
+        "title": "Hi! IT’S GUMEROV ILNUR",
+        "content": "I studied at school 21, I've completed projects in C/C++. Currently stydying Vue, because found it the most intresting JavaScript framework. Completed courses in VueSchool and Laracast."
+    },
+    "ru": {
+        "title": "Привет, в этом разделе ты можешь найти информацию обо мне",
+        "content": "Проходил обучение в School 21, выполнял проекты на С/С++. На данный момент погрузился в изучение Vue, так как нахожу его для себя самым интересным фреймворков JS. Основные мои задачи на работе выполняются на чистом JS, но помимо этого я выполнял проекты на Vue. Проходил курсы на Vueschool и Laracast"
+    }
+}

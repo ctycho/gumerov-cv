@@ -1,0 +1,12 @@
+{
+    "en": {
+        "title": "Here is the list of my public github repositories",
+        "name": "Name",
+        "lang": "Language"
+    },
+    "ru": {
+        "title": "Список моих репозиториев из GitHub",
+        "name": "Название",
+        "lang": "Язык"
+    }
+}

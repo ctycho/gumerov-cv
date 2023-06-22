@@ -1,0 +1,36 @@
+{
+    "en": [
+        {
+            "id": 1,
+            "menu_item": "Home",
+            "path": "/"
+        },
+        {
+            "id": 2,
+            "menu_item": "About",
+            "path": "/about"
+        },
+        {
+            "id": 3,
+            "menu_item": "Projects",
+            "path": "/projects"
+        }
+    ],
+    "ru": [
+        {
+            "id": 1,
+            "menu_item": "Главная",
+            "path": "/"
+        },
+        {
+            "id": 2,
+            "menu_item": "О себе",
+            "path": "/about"
+        },
+        {
+            "id": 3,
+            "menu_item": "Проекты",
+            "path": "/projects"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "linkedin.svg",
+        "link": "https://www.linkedin.com/in/ilnur-gumerov-12225b1aa/",
+        "alt": "Linkedin"
+    },
+    {
+        "id": 3,
+        "name": "instagram.svg",
+        "link": "https://instagram.com/gumerov.i.i",
+        "alt": "Instagram"
+    },
+    {
+        "id": 4,
+        "name": "githab.svg",
+        "link": "https://github.com/ctycho",
+        "alt": "Github"
+    },
+    {
+        "id": 5,
+        "name": "mail.svg",
+        "link": "mailto:ilnur_gumerov_1996@mail.ru",
+        "alt": "Mail"
+    },
+    {
+        "id": 6,
+        "name": "telegram.svg",
+        "link": "https://telegram.me/+79655829966",
+        "alt": "Telegram"
+    }
+]
