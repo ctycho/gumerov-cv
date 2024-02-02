@@ -2,42 +2,20 @@
 	<div class="main_wrapper">
 		<div class="_container">
 			<div class="divider"></div>
-            <div class="company">
+            
+            <div v-for="company in info" :key="info.id" class="company">
                 <div class="company-header">
-                    <div class="company-period">April 2022 - Present</div>
-                    <div class="company-name">Media-tel by Devoteam, SimpleOne developer</div>
+                    <div class="company-period">{{ company.period }}</div>
+                    <div class="company-name">{{ company.name }}</div>
                 </div>
                 <div class="company-block">
-                    <div class="block-title">Outline</div>
-                    <div class="block-desc">Integration SimpleOne platform to the country top rated bank, main responsibilities creating dynamic portal for employees, synchronize tables with data from SAP, configuring busssiness rules</div>
+                    <div class="block-title">{{ company.title_one }}</div>
+                    <div class="block-desc">{{ company.outline }}</div>
                 </div>
                 <div class="company-block">
-                    <div class="block-title">Key responsibilities</div>
+                    <div class="block-title">{{ company.title_two }}</div>
                     <div class="block-desc">
-                        <div class="block-list">Creating portal (Figma)</div>
-                        <div class="block-list">Integration with SAP</div>
-                        <div class="block-list">Creating SQL queries</div>
-                    </div>
-                </div>
-            </div>
-            <div class="company">
-                <div class="company-header">
-                    <div class="company-period">October 2021 - April 2022</div>
-                    <div class="company-name">GDC, System Developer (ServiceNow)</div>
-                </div>
-                <div class="company-block">
-                    <div class="block-title">Outline</div>
-                    <div class="block-desc">The role involves designing, configuring, developing, troubleshooting and implementing baseline and custom applications to enhance the platform.</div>
-                </div>
-                <div class="company-block">
-                    <div class="block-title">Key responsibilities</div>
-                    <div class="block-desc">
-                        <div class="block-list">Developing, configuring, and customizing the ServiceNow platform to fit business requirements.</div>
-                        <div class="block-list">UI Actions, Business rules, Client scripts</div>
-                        <div class="block-list">Creating widgets (HTML5, CSS3, JavaScript)</div>
-                        <div class="block-list">Debugging and fixing technical problems</div>
-                        <div class="block-list">Communication with customer</div>
-                        <div class="block-list">Producing and running test cases to guarantee software quality.</div>
+                        <div v-for="item in company.responsibilities" class="block-list">{{ item }}</div>
                     </div>
                 </div>
             </div>
@@ -46,14 +24,14 @@
 	</div>
 </template>
 <script setup>
-// import infoAll from '@/store/about.json'
+import { exp } from '@/store/experience.ts'
 
 let language = localStorage.getItem('user_language')
 if (!language) {
 	localStorage.setItem('user_language', 'en')
 	language = 'en'
 }
-// let info = infoAll[language]
+let info = exp[language]
 
 </script>
 
