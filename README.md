@@ -1,4 +1,4 @@
-[This website](http://gumerov-ilnur-cv.ru/)
+<!-- [This website](http://gumerov-ilnur-cv.ru/) -->
 
 # vue-cv
 
